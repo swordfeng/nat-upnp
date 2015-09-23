@@ -1,12 +1,12 @@
 {
   "name": "nat-upnp",
-  "version": "0.2.11",
+  "version": "1.0.0",
   "main": "lib/nat-upnp",
   "author": "Fedor Indutny <fedor@indutny.com>",
   "homepage": "https://github.com/indutny/node-nat-upnp",
   "repository": {
     "type": "git",
-    "url": "http://github.com/indutny/node-nat-upnp.git"
+    "url": "git+ssh://git@github.com/indutny/node-nat-upnp.git"
   },
   "devDependencies": {
     "jscs": "^1.11.2",
@@ -20,5 +20,17 @@
     "request": "~2.10.0",
     "async": "~0.1.22",
     "ip": "~0.0.1"
-  }
+  },
+  "description": "Port mapping via UPnP APIs",
+  "bugs": {
+    "url": "https://github.com/indutny/node-nat-upnp/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "upnp",
+    "nat"
+  ],
+  "license": "MIT"
 }
